@@ -10,10 +10,21 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "file-saver": "^2.0.5",
     "next": "14.2.5",
+    "nodejs-text-summarizer": "^2.0.3",
+    "nodemailer": "^6.9.14",
     "oneai": "^0.8.4",
+    "pdf-parse": "^1.1.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "replicate": "^0.31.1",
+    "sonner": "^1.5.0",
+    "summarize": "^1.5.0",
+    "textrazor": "^2.1.0",
+    "uuid": "^10.0.0",
+    "yarn": "^1.22.22",
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "^20",
