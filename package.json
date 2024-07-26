@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "cors": "^2.8.5",
     "file-saver": "^2.0.5",
     "next": "14.2.5",
@@ -21,6 +22,7 @@
     "replicate": "^0.31.1",
     "sonner": "^1.5.0",
     "summarize": "^1.5.0",
+    "tailwind-merge": "^2.4.0",
     "textrazor": "^2.1.0",
     "unfluff": "^0.7.0",
     "uuid": "^10.0.0",
