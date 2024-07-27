@@ -1,4 +1,4 @@
-import { currentUser } from '@clerk/nextjs';
+import { currentUser } from '@clerk/nextjs/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(req: Request, res: Response) {

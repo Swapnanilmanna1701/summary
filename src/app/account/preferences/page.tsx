@@ -1,7 +1,7 @@
 import { siteConfig } from '@/config/site';
 import { Metadata } from 'next';
 import React from 'react'
-import Preferences from './_components/Preferences';
+import Preferences from './_components/preferences';
 
 export const metadata: Metadata = {
     title: "Preferences",
