@@ -13,7 +13,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from "react";
 import { toast } from "sonner";
-import FeedbackModal from "./FeedbackModal";
+import FeedbackModal from "./feedbackModal";
 import { Button } from './ui/button';
 import { Skeleton } from './ui/skeleton';
 
