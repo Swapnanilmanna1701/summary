@@ -53,7 +53,7 @@ const MobileSidebar = () => {
                     <Image src="/logo.png" width={50} height={50} alt="Briefly Logo" className="object-cover w-auto h-6 dark:hidden group-hover:rotate-[360deg] duration-700 ease-out transition-all" />
                     <Image src="/logo.png" width={50} height={50} alt="Briefly Logo" className="hidden object-cover w-auto h-6 dark:block" />
                     <span className="ml-3 text-lg font-semibold">
-                        Briefly
+                        Genie
                     </span>
                 </SheetHeader>
                 <div className="flex flex-col items-center w-full pt-6 mt-6 border-t border-border gap-y-1">

@@ -1,13 +1,13 @@
 import { create } from "zustand";
 
-interface OutputLangState {
-    outputLang: string;
-    setOutputLang: (outputLang: string) => void;
+interface OutputTextState {
+    outputText: string;
+    setOutputText: (outputText: string) => void;
 }
 
-const useOutputLang = create<OutputLangState>((set) => ({
-    outputLang: "de",
-    setOutputLang: (outputLang) => set({ outputLang }),
+const useOutputText = create<OutputTextState>((set) => ({
+    outputText: "",
+    setOutputText: (outputText) => set({ outputText }),
 }));
 
-export default useOutputLang;
+export default useOutputText;
