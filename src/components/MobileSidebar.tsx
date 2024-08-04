@@ -50,8 +50,8 @@ const MobileSidebar = () => {
             </SheetTrigger>
             <SheetContent side="right">
                 <SheetHeader className="relative flex flex-row items-center w-full mt-4 space-y-0">
-                    <Image src="/logo.svg" width={50} height={50} alt="Briefly Logo" className="object-cover w-auto h-6 dark:hidden group-hover:rotate-[360deg] duration-700 ease-out transition-all" />
-                    <Image src="/logo-dark.svg" width={50} height={50} alt="Briefly Logo" className="hidden object-cover w-auto h-6 dark:block" />
+                    <Image src="/logo.png" width={50} height={50} alt="Briefly Logo" className="object-cover w-auto h-6 dark:hidden group-hover:rotate-[360deg] duration-700 ease-out transition-all" />
+                    <Image src="/logo.png" width={50} height={50} alt="Briefly Logo" className="hidden object-cover w-auto h-6 dark:block" />
                     <span className="ml-3 text-lg font-semibold">
                         Briefly
                     </span>

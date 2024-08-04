@@ -22,7 +22,7 @@ const Bottombar = () => {
 
     const { inputText } = useInputText();
 
-    const { outputText, setOutputText } = useOutputText();
+    const { outputText, setOutputText } = useOutputText()
 
     const { loading, setLoading } = useIsLoading();
 

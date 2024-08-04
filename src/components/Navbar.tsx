@@ -106,8 +106,8 @@ const Navbar = () => {
                         </Sheet>
                     </div>
                     <Link href="/" className="relative group">
-                        <Image src="/logo.svg" width={50} height={50} alt="Briefly Logo" className="object-cover w-auto h-6 transition-all duration-700 ease-out dark:hidden" />
-                        <Image src="/logo-dark.svg" width={50} height={50} alt="Briefly Logo" className="hidden object-cover w-auto h-6 dark:block" />
+                        <Image src="/logo.png" width={60} height={60} alt="Briefly Logo" className="object-cover w-auto h-6 transition-all duration-700 ease-out dark:hidden" />
+                        <Image src="/logo.png" width={60} height={60} alt="Briefly Logo" className="hidden object-cover w-auto h-6 dark:block" />
                     </Link>
                 </div>
 
@@ -148,8 +148,8 @@ const Navbar = () => {
             <div className="flex items-center justify-between h-full px-4 md:hidden">
                 <div className="flex items-center pl-4 select-none">
                     <Link href="/" className="relative group">
-                        <Image src="/logo.svg" width={50} height={50} alt="Briefly Logo" className="object-cover w-auto h-6 dark:hidden group-hover:rotate-[360deg] duration-700 ease-out transition-all" />
-                        <Image src="/logo-dark.svg" width={50} height={50} alt="Briefly Logo" className="hidden object-cover w-auto h-6 dark:block" />
+                        <Image src="/logo.png" width={50} height={50} alt="Briefly Logo" className="object-cover w-auto h-6 dark:hidden group-hover:rotate-[360deg] duration-700 ease-out transition-all" />
+                        <Image src="/logo.png" width={50} height={50} alt="Briefly Logo" className="hidden object-cover w-auto h-6 dark:block" />
                     </Link>
                 </div>
                 <div className="flex items-center gap-3">
