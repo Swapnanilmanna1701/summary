@@ -179,7 +179,7 @@ const BottomBar = ({ }) => {
                                     >
                                         {loading ? (
                                             <Loader2 className="w-5 h-5 mx-7 animate-spin" />
-                                        ) : summarizedText.length > 0 ? "Re-summarize" : "Summarize"}
+                                        ) : summarizedText?.length > 0 ? "Re-summarize" : "Summarize"}
                                     </Button>
                                 </TooltipTrigger>
                                 <TooltipContent>
@@ -197,7 +197,7 @@ const BottomBar = ({ }) => {
                                     >
                                         {loading ? (
                                             <Loader2 className="w-5 h-5 mx-7 animate-spin" />
-                                        ) : summarizedText.length > 0 ? "Re-summarize" : "Summarize"}
+                                        ) : summarizedText?.length > 0 ? "Re-summarize" : "Summarize"}
                                     </Button>
                                 </TooltipTrigger>
                                 <TooltipContent>
@@ -213,7 +213,7 @@ const BottomBar = ({ }) => {
                         <div className="w-1 h-1 mx-2 rounded-full bg-primary"></div>
                         {outputWordCount} words
                     </div>
-                    {summarizedText.length > 0 && (
+                    {summarizedText?.length > 0 && (
                         <div className="items-center hidden md:flex gap-x-4">
                             <TooltipProvider>
                                 <div className="flex items-center">

@@ -21,7 +21,7 @@ const OutputBox = () => {
 
         setSentenceCount(sentences?.length);
 
-        setWordCount(words.length);
+        setWordCount(words?.length);
     }, [summarizedText, setWordCount, setSentenceCount]);
 
 
