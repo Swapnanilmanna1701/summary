@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# XCODER7 : convert codes effortlessly with AI 🔥
 
-## Getting Started
+![screenshot](src/app/opengraph-image.jpg)
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ensure you have Node.js installed on your machine. You can check by running `node -v` in your terminal. If not, download and install it from [Node.js website](https://nodejs.org).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **You can git clone it:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```sh
+   git clone https://github.com/<your github ID>/summary.git
+   ```
 
-## Learn More
+This will create a new directory named `next-shadcn-template` in your current directory.
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install the dependencies:**
+   Run the following command to install the project dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```sh
+   npm/bun install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Start the development server:**
+   After installing the dependencies, start the development server by running:
 
-## Deploy on Vercel
+   ```sh
+   npm/bun run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Now, you should be able to see the application running at `localhost:3000` in your web browser! ✨
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+##### You can also download the code as Zip.
+
+### Contributing
+
+We welcome contributions from the community. Whether you want to add new features, fix bugs, or improve documentation, your help is appreciated.
+
+### Owner
+
+The primary contact for inquiries about the project is [Swapnanil Manna](https://github.com/Swapnanilmanna1701). Feel free to reach out for any questions, suggestions, or issues related to the project. My [Linkedin](https://www.linkedin.com/in/swapnanil-manna/).
