@@ -1,4 +1,4 @@
-# XCODER7 : convert codes effortlessly with AI 🔥
+#Summary : your smart companion
 
 ![screenshot](src/app/opengraph-image.jpg)
 
